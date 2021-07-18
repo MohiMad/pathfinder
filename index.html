@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Path Finding Algorithm</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="app.js"></script>
+</head>
+
+<body>
+    <div id="selector">
+        <form>
+            <fieldset>
+                <legend>Pathfinder Information</legend>
+                <div class="tooltip">Click on the grid to place an element</div>
+                <label for="starting-node">Starting Node:</label>
+                <input type="checkbox" id="starting-node" name="starting-node"><br>
+                <label for="target">Target:</label>
+                <input type="checkbox" id="target" name="target"><br>
+                <label for="wall">Wall:</label>
+                <input type="checkbox" id="wall" name="wall"><br>
+                <label for="searched">Searched Nodes:</label><br><br>
+                <div id="button-container">
+                    <button id="run" type="button">Run</button>
+                    <button id="reset" type="button">Reset Grid</button>
+                </div>
+            </fieldset>
+        </form>
+    </div>
+    <div id="grid-container"></div>
+
+
+</body>
+
+</html>
